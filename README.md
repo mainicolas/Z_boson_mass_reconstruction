@@ -6,6 +6,7 @@ This code simulates a particle detector made of a calorimeter which return the p
 
 This algorithm is based on Monte-Carlo and rejection sampling techniques.
 
+
 ### Initial conditions
 The ICs are located in the data.txt file. The available parameters are the following:
 * number of desintegrations
@@ -14,7 +15,8 @@ The ICs are located in the data.txt file. The available parameters are the follo
 * resolution related to momentum
 * resolution related to angles
 
-### Build and run
+
+### Instructions
 create a directory
 ```
 $ mkdir z_boson
@@ -26,8 +28,9 @@ clone the code
 $ git clone https://github.com/mainicolas/Z_boson_mass_reconstruction.git
 ```
 
-run the code
+build and run the code
 ```
+$ make
 $ ./main.exe
 ```
 
