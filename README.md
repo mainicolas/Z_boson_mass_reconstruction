@@ -1,8 +1,8 @@
 # Z boson mass reconstruction
 
-This is a College project (third year Bsc in physics).
+This is a university project (BSc in physics, 3rd year).
 
-This code simulates a particle detector made of a calorimeter which return the particles energy and a tracker which reconstruct the trajectories and return the momentum of the particles. The goal is to calculate the mass of the Z boson using the muons generation produce from the Z desintegration.
+This code simulates a particle detector made of a calorimeter which return the particles energy and a tracker which return the momentum of the particles. The goal is to calculate the mass of the Z boson using the muons generation produce from the Z desintegration.
 
 This algorithm is based on Monte-Carlo and rejection sampling techniques.
 
